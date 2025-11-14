@@ -1,0 +1,16 @@
+name: sgive
+version: '1.0-SNAPSHOT'
+main: net.enabify.sgive.Sgive
+api-version: '1.21'
+folia-supported: true
+
+commands:
+  sgive:
+    description: Give items to online or offline players
+    usage: /sgive <player> <item> [amount]
+    permission: sgive.use
+
+permissions:
+  sgive.use:
+    description: Allows use of the sgive command
+    default: op
